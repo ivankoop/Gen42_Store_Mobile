@@ -1,0 +1,136 @@
+<resources>
+    <string name="app_name">Gen42 Store</string>
+    <!--Titulos-->
+    <string name="tt_m_login">Which type of user are you?</string>
+    <string name="tt_manage">Manage customers</string>
+    <string name="tt_manage_supplier">Manage suppliers</string>
+    <string name="tt_manage_categories">Manage categories</string>
+    <string name="tt_listCustomer">List Customers</string>
+    <string name="tt_listProducts">List products</string>
+    <string name="tt_listCategories">List categories</string>
+    <string name="tt_personalData">Update your personal information</string>
+    <string name="tt_add_address">Add new adress</string>
+    <string name="tt_add_cart_rule">Add discount voucher</string>
+    <string name="tt_add_order">New purchase</string>
+    <!--Login-->
+    <string name="tx_mail">Enter your email:</string>
+    <string name="tx_password">Enter your password:</string>
+    <string name="ph_mail">faouzi@gen42.com</string>
+    <string name="ph_password">password</string>
+    <string name="bt_sesion">Log in</string>
+    <!--menu login-->
+    <string name="bt_admin">Administrator</string>
+    <string name="bt_customer">Customer</string>
+    <!--menu-->
+    <string name="bt_manageCustomer">Manage customers</string>
+    <string name="bt_listCustomer">List customers</string>
+    <string name="bt_manageAddress">Manage adresses</string>
+    <string name="bt_listAddress">List adresses</string>
+    <string name="bt_manageProdcts">Manage products</string>
+    <string name="bt_listProducts">List products</string>
+    <string name="bt_manageCategories">Manage categories</string>
+    <string name="bt_listCategories">List categories</string>
+    <string name="bt_manageProviders">Manage Providers</string>
+    <string name="bt_listProviders">List providers</string>
+    <string name="bt_manageOrders">New order</string>
+    <string name="bt_listOrders">List orders</string>
+    <string name="bt_manageCoupon">Discount vouchers</string>
+    <!--customer menu-->
+    <string name="bt_personal_data">Personal data</string>
+    <string name="bt_order_new">New order</string>
+    <string name="bt_order_history">Orders history</string>
+    <string name="bt_addresses">Adresses</string>
+    <string name="bt_coupons_customer">Discount vouchers</string>
+    <!--Logout-->
+    <string name="bt_logout">Sign off</string>
+    <!--Manage customers-->
+    <string name="bt_get">Search</string>
+    <string name="bt_put">Update</string>
+    <string name="bt_post">Add</string>
+    <string name="bt_del">Delete</string>
+    <string name="bt_clear">Clear</string>
+    <string name="bt_cancel">Cancel</string>
+
+    <string name="customerId">ID</string>
+    <string name="firstName">FirstName</string>
+    <string name="lastName">LastName</string>
+    <string name="clastName">cLastName</string>
+    <string name="email">email</string>
+
+    <string name="ph_customerId">CustomerId</string>
+    <string name="ph_firstName">FirstName</string>
+    <string name="ph_lastName">LastName</string>
+    <string name="ph_email">faouzi@gen42.com</string>
+
+    <string name="birth_date">Birth date</string>
+    <string name="ph_birth_date">aaaa-mm-dd</string>
+    <string name="upd_password">Change password</string>
+    <string name="ph_upd_password">(minimum 8 caracters)</string>
+    <string name="help_password">Leave the password field empty if you do not want to update</string>
+    <!--row products-->
+    <string name="tx_description">Description</string>
+    <string name="tx_active">Active</string>
+    <string name="tx_description_short">Description</string>
+    <string name="tx_price">Price</string>
+    <!--detail_order-->
+    <string name="tx_id_order">ID Order</string>
+    <string name="tx_id_customer">ID customer</string>
+    <string name="tx_module">Mode</string>
+    <string name="tx_date_add">Order</string>
+    <string name="tx_date_upd">Actualization</string>
+    <string name="tx_total_paid">Total paid</string>
+    <string name="tx_total_products">Products</string>
+    <string name="tx_total_shipping">Shipping</string>
+    <string name="tx_total_discounts">Descount</string>
+    <string name="tx_products_order">Orders</string>
+    <!--Detalles de producto-->
+    <string name="tx_available">Available</string>
+    <string name="tx_reference">Reference</string>
+    <string name="tx_supplier">Supplier</string>
+    <string name="tx_description_shortest">Short Description</string>
+    <string name="tx_description_large">Description</string>
+    <!--Cart Rules-->
+    <string name="tx_for_you">For you</string>
+    <string name="tx_general">General</string>
+    <!--add address-->
+    <string name="tx_id_fiscal">Fiscal id</string>
+    <string name="tx_address_name">Alias</string>
+    <string name="tx_company">Company</string>
+    <string name="tx_IVA">TVA</string>
+    <string name="tx_address">Adress</string>
+    <string name="tx_cp">Postal code</string>
+    <string name="tx_city">City</string>
+    <string name="tx_country">Country</string>
+    <string name="tx_state">State</string>
+    <string name="tx_phone">Phone</string>
+    <string name="tx_mobile_phone">Mobile phone</string>
+    <!--Add cart rule-->
+    <string name="tx_code">Code</string>
+    <string name="tx_customer">Customer</string>
+    <string name="tx_percent">Percentage</string>
+    <string name="tx_from">From</string>
+    <string name="tx_until">Until</string>
+    <!--Another-->
+    <string name="tx_keywords">Keywords</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <!--Products-->
+    <string name="price_w_iva">Price without TVA</string>
+    <string name="msg_not_exist">Message deplected</string>
+    <string name="supplier_name">Supplier</string>
+    <!--Buy Products-->
+    <string name="goto_pay">Go to Pay</string>
+    <string name="total">$0.0</string>
+    <string name="count">1</string>
+    <string name="add_car">Add</string>
+    <!--spinner array-->
+    <string-array name="country_arrays">
+        <item>Choose</item>
+    </string-array>
+
+    <string name="title_activity_starting_animation">StartingAnimation</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>
